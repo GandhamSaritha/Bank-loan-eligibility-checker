@@ -9,43 +9,47 @@ The Bank Loan Eligibility Checker collects applicant information and evaluates p
 This project demonstrates fundamental Core Java concepts, conditional logic, and rule-based decision-making.
 
 Features
-Validates applicant age.
-Checks the minimum monthly income.
-Supports salaried and self-employed applicants.
-Validates employment or business experience.
-Checks existing monthly EMI obligations.
-Evaluates the applicant's credit score.
-Validates the requested loan amount.
-Displays eligibility or rejection messages.
+ - Validates applicant age.
+ - Checks the minimum monthly income.
+ - Supports salaried and self-employed applicants.
+ - Validates employment or business experience.
+ - Checks existing monthly EMI obligations.
+ - Evaluates the applicant's credit score.
+ - Validates the requested loan amount.
+ - Displays eligibility or rejection messages.
+ - 
 Technology Stack
-Programming Language: Java
-Application Type: Console-based application
-Input Handling: Java Scanner class
-IDE: Eclipse
-Version Control: Git and GitHub
+ - Programming Language: Java
+ - Application Type: Console-based application
+ - Input Handling: Java Scanner class
+ - IDE: Eclipse
+ - Version Control: Git and GitHub
+ - 
 Eligibility Criteria
-Criteria	Requirement
-Age	21 to 60 years
-Minimum monthly income	₹25,000
-Salaried work experience	At least 1 year
-Business experience	At least 2 years
-Minimum credit score	700
-Existing monthly EMI	Maximum 40% of monthly income
-Requested loan amount	Up to ₹5,00,000
+
+ - Criteria	Requirement
+ - Age	21 to 60 years
+ - Minimum monthly income	₹25,000
+ - Salaried work experience	At least 1 year
+ - Business experience	At least 2 years
+ - Minimum credit score	700
+ - Existing monthly EMI	Maximum 40% of monthly income
+ - Requested loan amount	Up to ₹5,00,000
 
 Note: The EMI condition applies only to applicants who report existing loans in the current implementation.
 
 Application Workflow
-Enter the applicant's full name and age.
-Validate the age requirement.
-Enter and validate monthly income.
-Select salaried or self-employed status.
-Enter work or business experience.
-Provide details about existing loans.
-If applicable, validate the existing monthly EMI.
-Enter the credit score.
-Enter the requested loan amount.
-Display the preliminary screening result.
+ 
+1.Enter the applicant's full name and age.
+2.Validate the age requirement.
+3.Enter and validate monthly income.
+4.Select salaried or self-employed status.
+5.Enter work or business experience.
+6.Provide details about existing loans.
+7.If applicable, validate the existing monthly EMI.
+8.Enter the credit score.
+9.Enter the requested loan amount.
+10.Display the preliminary screening result.
 Sample Output
 1. Salaried Employee
 
@@ -86,30 +90,32 @@ What is your current monthly EMI?
 Your existing EMI is too high. You are not eligible.
 
 Core Java Concepts Demonstrated
-Variables and data types
-Console input using Scanner
-Nested if-else statements
-Logical AND operator (&&)
-String comparison using equals()
-Conditional branching
-Basic business-rule implementation
+ - Variables and data types
+ - Console input using Scanner
+ - Nested if-else statements
+ - Logical AND operator (&&)
+ - String comparison using equals()
+ - Conditional branching
+ - Basic business-rule implementation
+ - 
 How to Run
-Prerequisites
+ - Prerequisites
 Java Development Kit (JDK)
 Eclipse IDE or another Java-compatible IDE
-Steps
-Clone or download this repository.
-Import the project into Eclipse as a Java project.
-Open BankLoan_Eligibility.java.
-Run the program using Run As → Java Application.
-Enter the requested information in the console.
+ - Steps
+1.Clone or download this repository.
+2.Import the project into Eclipse as a Java project.
+3.Open BankLoan_Eligibility.java.
+4.Run the program using Run As → Java Application.
+5.Enter the requested information in the console.
+
 Future Enhancements
-Refactor repeated logic into reusable methods.
-Add input validation and exception handling.
-Improve object-oriented design.
-Add unit tests using JUnit.
-Store applicant information in a database.
-Develop a graphical user interface or REST API.
+ - Refactor repeated logic into reusable methods.
+ - Add input validation and exception handling.
+ - Improve object-oriented design.
+ - Add unit tests using JUnit.
+ - Store applicant information in a database.
+ - Develop a graphical user interface or REST API.
 
 Disclaimer
 This is an educational Proof of Concept. The eligibility criteria are illustrative and do not represent actual bank lending policies or guarantee loan approval.
@@ -120,7 +126,8 @@ The following screenshot demonstrates the loan eligibility screening process usi
 <img width="1142" height="843" alt="Loan Eligibility Checker Output" src="https://github.com/user-attachments/assets/2feb118f-9b48-497a-a0e2-9ba345c23247" />
 
 Author
-Gandham Saritha-> Developed as a Core Java project to demonstrate conditional logic and rule-based loan eligibility screening.
+Gandham Saritha
+Developed as a Core Java project to demonstrate conditional logic and rule-based loan eligibility screening.
 
 
 
